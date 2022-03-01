@@ -59,6 +59,14 @@ label {
     height: auto;
     font-size: 24px;
 }
+.input-wrapper input.invalid {
+    background-color: #ff7d7d;
+    border:2px solid #FF6464;
+}
+.input-wrapper input.valid {
+    background-color: #aad1a0;
+    border:2px solid #91C483;
+}
 #password-wrapper ul{
     margin: 5px 0px;
 }
