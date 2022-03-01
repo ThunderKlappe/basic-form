@@ -100,12 +100,12 @@ const formValidation = (() => {
 
 // eslint-disable-next-line no-unused-vars
 const initListeners = (() => {
-    document.querySelector("#name-input").addEventListener("change", formValidation.checkName);
-    document.querySelector("#email-input").addEventListener("change", formValidation.checkEmail);
-    document.querySelector("#country-input").addEventListener("change", formValidation.checkCountry);
-    document.querySelector("#zip-input").addEventListener("change", formValidation.checkZip);
-    document.querySelector("#password-input").addEventListener("change", formValidation.checkPass);
-    document.querySelector("#password-conf-input").addEventListener("change", formValidation.checkPassConf);
+    document.querySelector("#name-input").addEventListener("input", formValidation.checkName);
+    document.querySelector("#email-input").addEventListener("input", formValidation.checkEmail);
+    document.querySelector("#country-input").addEventListener("input", formValidation.checkCountry);
+    document.querySelector("#zip-input").addEventListener("input", formValidation.checkZip);
+    document.querySelector("#password-input").addEventListener("input", formValidation.checkPass);
+    document.querySelector("#password-conf-input").addEventListener("input", formValidation.checkPassConf);
 
     document.querySelector("#submit-button").addEventListener("click", formValidation.submitForm);
 
