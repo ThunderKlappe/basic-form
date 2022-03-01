@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/d6f2419a81.js" crossorigin="anonymous"></script>
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <title><%= htmlWebpackPlugin.options.title %></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://kit.fontawesome.com/d6f2419a81.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-    
-</body>
-
+    <body>
+        <div id="header">Sign-Up Form</div>
+        <div id="content">
+            <form>
+                <div id="form-wrapper">
+                    <div id="form-title-wrapper">
+                        <div id="form-title">Please Enter Your Info</div>
+                    </div>
+                    <div id="name-wrapper" class="input-wrapper">
+                        <label for="name-input">Name: </label>
+                        <input id="name-input" name="name-input" type="text" required />
+                    </div>
+                    <div id="email-wrapper" class="input-wrapper">
+                        <label for="email-input">Email: </label>
+                        <input id="email-input" name="email-input" type="email" required />
+                    </div>
+                    <div id="country-wrapper" class="input-wrapper">
+                        <label for="country-input">Country: </label>
+                        <input id="country-input" name="country-input" type="text" required />
+                    </div>
+                    <div id="zip-wrapper" class="input-wrapper">
+                        <label for="zip-input">Zip Code: </label>
+                        <input id="zip-input" name="zip-input" type="text" required />
+                    </div>
+                    <div id="password-wrapper" class="input-wrapper">
+                        <label for="password-input">Password: </label>
+                        <input id="password-input" name="password-input" type="text" required />
+                    </div>
+                    <div id="password-conf-wrapper" class="input-wrapper">
+                        <label for="password-conf-input">Confirm Password: </label>
+                        <input id="password-conf-input" name="password-conf-input" type="text" required />
+                    </div>
+                    <div id="button-wrapper" class="button-wrapper">
+                        <button type="submit" id="submit-button">Submit</button>
+                        <button type="reset" id="reset-button">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
 </html>
