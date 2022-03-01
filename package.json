@@ -1,0 +1,29 @@
+{
+  "name": "basic-form",
+  "version": "1.0.0",
+  "description": "A basic sign up form using Javascript Validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThunderKlappe/basic-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThunderKlappe/basic-form/issues"
+  },
+  "homepage": "https://github.com/ThunderKlappe/basic-form#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "eslint": "^8.10.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
