@@ -59,6 +59,12 @@ label {
     height: auto;
     font-size: 24px;
 }
+#password-wrapper ul{
+    margin: 5px 0px;
+}
+#password-description{
+    margin-top: 5px;
+}
 #button-wrapper {
     margin-top: 20px;
 }
@@ -69,7 +75,6 @@ button {
     margin-left: 20px;
     border-radius: 30px;
     filter: brightness(100%);
-    transition: .25s;
 }
 button:hover{
     filter: brightness(80%);

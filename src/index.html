@@ -10,7 +10,7 @@
     <body>
         <div id="header">Sign-Up Form</div>
         <div id="content">
-            <form>
+            <form novalidate id="my-form">
                 <div id="form-wrapper">
                     <div id="form-title-wrapper">
                         <div id="form-title">Please Enter Your Info</div>
@@ -33,11 +33,20 @@
                     </div>
                     <div id="password-wrapper" class="input-wrapper">
                         <label for="password-input">Password: </label>
-                        <input id="password-input" name="password-input" type="text" required />
+                        <input id="password-input" name="password-input" type="password" required />
+                        <div id="password-description">Passwords must have the following:
+                            <ul>
+                                <li>At least 8 characters</li>
+                                <li>At least one upper case letter</li>
+                                <li>At least one lower case letter</li>
+                                <li>At least one number</li>
+                                <li>At least one symbol (#?!@$%^&*-)</li>
+                            </ul>
+                        </div>
                     </div>
                     <div id="password-conf-wrapper" class="input-wrapper">
                         <label for="password-conf-input">Confirm Password: </label>
-                        <input id="password-conf-input" name="password-conf-input" type="text" required />
+                        <input id="password-conf-input" name="password-conf-input" type="password" required />
                     </div>
                     <div id="button-wrapper" class="button-wrapper">
                         <button type="submit" id="submit-button">Submit</button>
